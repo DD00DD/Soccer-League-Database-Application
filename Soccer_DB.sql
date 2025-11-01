@@ -1,5 +1,4 @@
 -- Soccer League Database
--- By group 39: Derek Dao - 501111838 Vani Vashisht - 501201610 Oghosasere Obazee - 501222335
 -- Description:
 -- This code contains creates the schema for each table for our soccer league database stats tracker
 
@@ -469,5 +468,6 @@ JOIN user_cons_columns rcc
     ON ruc.constraint_name = rcc.constraint_name
 WHERE uc.constraint_type = 'R'
 ORDER BY uc.table_name;
+
 
 
